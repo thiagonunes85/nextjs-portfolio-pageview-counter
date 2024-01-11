@@ -36,13 +36,20 @@ export default function Home() {
       <div className="my-16 text-center animate-fade-in">
 
         <h2 className="text-sm text-zinc-500 ">
-          MY personal website, build with{" "}
+          My personal website, build with{" "}
           <Link
             target="_blank"
             href="https://nextjs.org/"
             className="underline duration-500 hover:text-zinc-300"
           >
-            Next.Js
+            Next.JS
+          </Link>,
+          <Link
+            target="_blank"
+            href="https://tailwindcss.com/"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            TailWind.CSS
           </Link> to solve API authentication and authorization for developers.
         </h2>
 

@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Instagram } from "lucide-react";
+import { Github, Mail, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -18,7 +18,7 @@ const socials = [
 		handle: "chronark",
 	},
 	{
-		icon: <Instagram size={30} />,
+		icon: <Linkedin size={30} />,
 		href: "https://www.instagram.com/your_instagram_handle/",
 		label: "Instagram",
 		handle: "your_instagram_handle",

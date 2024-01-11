@@ -1,5 +1,6 @@
 "use client";
-import { Github, Mail, Twitter, Instagram, LinkedIn } from "lucide-react";
+import { Github, Mail, Twitter } from "lucide-react";
+import { Instagram, Linkedin  } from "lucide-vue-next";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";

@@ -1,35 +1,27 @@
 "use client";
-import { Github, Mail} from "lucide-react";
-//import { Instagram, Linkedin } from "lucide-vue-next";
+import { Github, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
-	/*{
-		icon: <Instagram size={20} />,
-		href: "https://www.instagram.com/tnunesdacosta/",
-		label: "Instagram",
-		handle: "@tnunesdacosta",
-	},
 	{
-		icon: <LinkedIn size={20} />,
-		href: "hhttps://www.linkedin.com/in/thiago-nunes-9570a9162/",
-		label: "LinkedIn",
-		handle: "thiagonunes",
-		*/
+		icon: <Twitter size={20} />,
+		href: "https://twitter.com/chronark_",
+		label: "Twitter",
+		handle: "@chronark_",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:thiagonunesss85@gmail.com",
+		href: "mailto:dev@chronark.com",
 		label: "Email",
-		handle: "thiagonunesss85@gmail.com",
+		handle: "dev@chronark.com",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/thiagonunes85",
+		href: "https://github.com/chronark",
 		label: "Github",
-		handle: "thiagonunes",
+		handle: "chronark",
 	},
 ];
 

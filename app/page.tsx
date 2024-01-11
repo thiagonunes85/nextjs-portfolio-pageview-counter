@@ -36,7 +36,7 @@ export default function Home() {
       <div className="my-16 text-center animate-fade-in">
 
         <h2 className="text-sm text-zinc-500 ">
-          My personal website, build with{" "}
+          My personal website build with{" "}
           <Link
             target="_blank"
             href="https://nextjs.org/"
@@ -64,7 +64,7 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             ContentLayer
-          </Link>{" "}and deployed to
+          </Link>{" "}and deployed to{" "}
           <Link
             target="_blank"
             href="https://vercel.com/"

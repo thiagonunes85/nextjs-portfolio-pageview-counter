@@ -6,8 +6,8 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "Thiago Nunes",
+    template: "%s | Thiago Nunes",
   },
   description: "Co-founder of unkey.dev and founder of planetfall.io",
   openGraph: {
@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
     url: "https://chronark.com",
-    siteName: "chronark.com",
+    siteName: "Thiago Nunes",
     images: [
       {
-        url: "https://photos.app.goo.gl/VgoagRtERBrtiV577",
+        url: "https://chronark.com/og.png",
         width: 1920,
         height: 1080,
       },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Thiago Nunes",
     card: "summary_large_image",
   },
   icons: {

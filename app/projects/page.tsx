@@ -49,6 +49,7 @@ export default async function ProjectsPage() {
                   )}
                 </span>
               </div>
+            </article>
           </Card>
         </div>
       </div>

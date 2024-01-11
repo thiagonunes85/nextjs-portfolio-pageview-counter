@@ -3,8 +3,8 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  { name: "Projects | Projetos", href: "/projects" },
-  { name: "Contact | Contato", href: "/contact" },
+  { name: "Projects", href: "/projects" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Home() {
@@ -35,7 +35,16 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-        My personal website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Upstash](https://upstash.com?ref=chronark.com), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/).
+          My personal website, built with {" "}
+          <Link
+            target="_blank"
+            href="https://nextjs.org/"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            Next.js
+          </Link>
+          <Link>
+          </Link> to solve API authentication and authorization for developers.
         </h2>
       </div>
     </div>

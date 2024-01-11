@@ -19,7 +19,7 @@ const socials = [
 	},
 	{
 		icon: <Linkedin size={30} />,
-		href: "https://www.instagram.com/tnunesdacosta/",
+		href: "https://www.linkedin.com/in/thiago-nunes-9570a9162/",
 		label: "Linkedin",
 		handle: "thiagonunes",
 	},

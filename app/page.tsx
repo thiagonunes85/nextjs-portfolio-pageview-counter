@@ -43,14 +43,35 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             Next.JS
-          </Link>,
+          </Link>, 
           <Link
             target="_blank"
             href="https://tailwindcss.com/"
             className="underline duration-500 hover:text-zinc-300"
           >
             TailWind.CSS
-          </Link> to solve API authentication and authorization for developers.
+          </Link>, 
+          <Link
+            target="_blank"
+            href="https://upstash.com?ref=chronark.com"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            Upstash
+          </Link>, 
+          <Link
+            target="_blank"
+            href="https://www.contentlayer.dev/"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            ContentLayer
+          </Link> and deployed to
+          <Link
+            target="_blank"
+            href="https://vercel.com/"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            Vercel
+          </Link>.
         </h2>
 
       </div>

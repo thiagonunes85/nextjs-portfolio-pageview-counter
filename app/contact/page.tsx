@@ -1,12 +1,12 @@
 "use client";
 import { Github, Mail, Twitter } from "lucide-react";
-import { Instagram, Linkedin  } from "lucide-vue-next";
+//import { Instagram, Linkedin } from "lucide-vue-next";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
-	{
+	/*{
 		icon: <Instagram size={20} />,
 		href: "https://www.instagram.com/tnunesdacosta/",
 		label: "Instagram",
@@ -17,6 +17,7 @@ const socials = [
 		href: "hhttps://www.linkedin.com/in/thiago-nunes-9570a9162/",
 		label: "LinkedIn",
 		handle: "thiagonunes",
+		*/
 	},
 	{
 		icon: <Mail size={20} />,

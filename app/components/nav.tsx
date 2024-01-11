@@ -1,5 +1,5 @@
 "use client";
-import { ArrowLeft, Instagram, LinkedIn, Github, Mail, Twitter } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -39,40 +39,6 @@ export const Navigation: React.FC = () => {
 							className="duration-200 text-zinc-400 hover:text-zinc-100"
 						>
 							Contact
-						</Link>
-						<Link
-							href="https://instagram.com/your_username"
-							target="_blank"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							<Instagram className="w-6 h-6" />
-						</Link>
-						<Link
-							href="https://linkedin.com/in/your_username"
-							target="_blank"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							<LinkedIn className="w-6 h-6" />
-						</Link>
-						<Link
-							href="https://github.com/chronark"
-							target="_blank"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							<Github className="w-6 h-6" />
-						</Link>
-						<Link
-							href="mailto:dev@chronark.com"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							<Mail className="w-6 h-6" />
-						</Link>
-						<Link
-							href="https://twitter.com/chronark_"
-							target="_blank"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							<Twitter className="w-6 h-6" />
 						</Link>
 					</div>
 

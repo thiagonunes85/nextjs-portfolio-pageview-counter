@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Twitter, Instagram, LinkedIn } from "lucide-react";
+import { Github, Mail, Twitter, Instagram } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -25,15 +25,9 @@ const socials = [
 	},
 	{
 		icon: <Instagram size={20} />,
-		href: "https://instagram.com/your_username",
+		href: "https://www.instagram.com/your_instagram_handle/",
 		label: "Instagram",
-		handle: "@your_username",
-	},
-	{
-		icon: <LinkedIn size={20} />,
-		href: "https://linkedin.com/in/your_username",
-		label: "LinkedIn",
-		handle: "Your Name",
+		handle: "your_instagram_handle",
 	},
 ];
 
@@ -43,8 +37,8 @@ export default function Example() {
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
-					{socials.map((s) => (
-						<Card>
+					{socials.map((s, index) => (
+						<Card key={index}>
 							<Link
 								href={s.href}
 								target="_blank"
